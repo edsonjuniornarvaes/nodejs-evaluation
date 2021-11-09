@@ -12,7 +12,7 @@ class GetLast3MessagesService {
       },
     });
 
-    //SELECT * FROM MESSAGES LIMIT 3 ORDER BY CREATED_AT DESC
+    // SELECT * FROM MESSAGES LIMIT 3 ORDER BY CREATED_AT DESC
 
     return messages;
   }
